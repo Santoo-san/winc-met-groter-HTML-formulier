@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- hier zet je de code in de head tags -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title> Deze titel verschijnt in de tab van je browser </title>
+</head>
+
+<body>
+  <!-- hier zet je de code in de body tags-->
+  <header>
+    <h1> Hoi Topkok, laat ons weten wat je favoriete gerechten zijn </h1>
+  </header>
+  <main>
+    <p> Vul onderstaand formulier in:</p>
+
+    <form name="contact" method="POST" data-netlify="true">
+      <hr>
+      <label>Naam: <input name="naam" type="text" value="voer hier je naam in" /></label><br><br>
+      <label> E-mail: <input name="e-mail" type="e-mail" value="voorbeeld@voorbeeld.nl" /></label><br><br>
+      <label> Telefoon: <input name="telefoon" type="tel" value="0123456789" /></label><br><br>
+      <label> Leeftijd: <input name="leeftijd" type="number" min="18" max="120" /></label><br><br>
+      <label> geboortedatum <input name="datum" type="date" /></label><br><br>
+      <label> Geslacht: <input name="geslacht" type="radio" id="Man" /> Man <input name="geslacht" type="radio" id= "Vrouw"/> Vrouw
+      </label><br><br>
+      <label>vrij tekstveld <textarea name="tekst" rows="10" cols="30">voer hier je verhaal in </textarea></label>
+      <hr>
+      <label>Akkoord met het delen van de gegevens <input name="akkoord" type="checkbox" /></label><br><br>
+      <hr>
+      <button type="submit">Verzenden</button><br><br>
+    </form>
+  </main>
+
+  <nav>
+    <p> Klik <a href="index.html">hier</a> om terug te gaan naar de homepage</p>
+  </nav>
+
+</body>
+
+</html>
