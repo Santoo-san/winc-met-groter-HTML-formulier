@@ -15,7 +15,7 @@
   <main>
     <p> Vul onderstaand formulier in:</p>
 
-    <form name="contact" method="POST" data-netlify="true">
+    <form  name="contact" method="POST" data-netlify="true">
       <hr>
       <label>Naam: <input name="naam" type="text" value="voer hier je naam in" /></label><br><br>
       <label> E-mail: <input name="e-mail" type="e-mail" value="voorbeeld@voorbeeld.nl" /></label><br><br>
@@ -25,11 +25,17 @@
       <label> Geslacht: <input name="geslacht" type="radio" id="Man" value="Man" /> Man <input name="geslacht"
           type="radio" id="Vrouw" value="Vrouw" /> Vrouw
       </label><br><br>
-      <label>vrij tekstveld <textarea name="tekst" rows="10" cols="30">voer hier je verhaal in </textarea></label>
-      <hr>
+      <p>Favoriete cuisine</p>
+      <label>Frans <input name="Frans" type="checkbox" /></label><br><br>
+      <label>Italiaans <input name="Italiaans" type="checkbox" /></label><br><br>
+      <label>Spaans <input name="Spaans" type="checkbox" /></label><br><br>
+      <label>Arabisch <input name="Arabisch" type="checkbox" /></label><br><br>
+      <label>Favoriete kleur van je short <input name="kleur" type="color"/></label><br><br>
+      <label>Biografie: <br> <textarea name="tekst" rows="10" cols="30">voer hier je verhaal in </textarea></label> <br><br>
+      <label>Upload je favo recept <input name="upload" type="file" /></label><br><br>
       <label>Akkoord met het delen van de gegevens <input name="akkoord" type="checkbox" /></label><br><br>
       <hr>
-      <button type="submit">Verzenden</button><br><br>
+      <button type="reset">Reset</button> <button type="submit">Verzenden</button><br><br>
     </form>
   </main>
 
